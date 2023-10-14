@@ -1,0 +1,43 @@
+# Binaries for programs and plugins
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Executables
+*.out
+
+# Go binary
+bin/
+
+# Go build cache
+*.o
+
+# Testing
+*.test
+*.trace
+
+# Output of the go coverage tool, specifically when used with LiteIDE
+*.cov
+
+# Dependency directories (Glide, Godep, Revel, gomu, etc.)
+vendor/
+Godeps/
+_godeps/
+
+# Go specific
+.idea
+.vscode
+.project
+
+# Output of the go coverage tool
+*.coverprofile
+
+# GoConvey test runner
+.convey/
+
+# GoLand editor
+/.idea
+
+*.cards
